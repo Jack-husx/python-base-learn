@@ -1,0 +1,30 @@
+# 忽略虚拟环境目录
+.venv/
+venv/
+env/
+ENV/
+
+# 忽略 Python 字节码文件
+*.pyc
+*.pyo
+__pycache__/
+
+# 忽略 IntelliJ IDEA 配置文件
+.idea/
+
+# 忽略 VS Code 配置文件
+.vscode/
+
+# 忽略操作系统生成的文件
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# 忽略构建输出目录
+target/
+dist/
+build/
+
+# 忽略日志文件和临时文件
+*.log
+*.tmp
+*.bak
